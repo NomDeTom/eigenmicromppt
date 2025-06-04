@@ -10,11 +10,11 @@ builds:
     entry: elec/src/micromppt.ato:Micromppt
 
 package:
-  identifier: eigenlucy/micromppt
-  repository: https://github.com/eigenlucy/micromppt
+  identifier: NomDeTom/eigenmicromppt
+  repository: https://github.com/NomDeTom/eigenmicromppt
   authors:
     - name: Lucy Moglia
       email: eigenlucy@proton.me
-  summary: 5W autonomous MPPT boost solar battery charger with embedded perturb and observe set point adjustment algorithm
+  summary: Fork of https://github.com/eigenlucy/micromppt
   license: MIT
   homepage: https://github.com/eigenlucy/micromppt
