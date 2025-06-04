@@ -1,6 +1,5 @@
 on: [push, pull_request]
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,7 +8,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build
+      - name: build
         uses: docker://ghcr.io/atopile/atopile-kicad
         id: build
         continue-on-error: true
